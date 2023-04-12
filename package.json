@@ -1,0 +1,23 @@
+{
+  "name": "bdr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteevoMcUltraCool/BDR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteevoMcUltraCool/BDR/issues"
+  },
+  "homepage": "https://github.com/SteevoMcUltraCool/BDR#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "websocket": "^1.0.34"
+  }
+}
