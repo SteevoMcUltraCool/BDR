@@ -10,5 +10,11 @@ const server = http.createServer(function(req,res){
         }else{
         res.write(data)
         }
+        res.end()
+    })
+
+})
+server.listen(port, function(error){
+    console.log(error|| "All good on port " + port)
 })
 
